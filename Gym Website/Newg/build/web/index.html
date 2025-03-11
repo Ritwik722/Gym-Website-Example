@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fitness Gym Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black ;
+            background: url('');
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .hero-image {
+            background-image: url('data:image/jpeg;base64,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');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+            font-size: 30px;
+        }
+
+        .hero-image h2 {
+            margin: 0;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            color: black;
+        }
+
+        .service {
+            width: 300px;
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+            color: black;
+        }
+
+        .service h3 {
+            margin-top: 0;
+        }
+
+        .contact-form {
+            text-align: center;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fitness Gym</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home" class="hero-image">
+        <h2>Welcome to Fitness Gym</h2>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Personal Training</h3>
+                <p>Get personalized training sessions with our experienced trainers.</p>
+            </div>
+            <div class="service">
+                <h3>Group Classes</h3>
+                <p>Join our group fitness classes and work out with a community.</p>
+            </div>
+            <div class="service">
+                <h3>Cardio Equipment</h3>
+                <p>Access a wide range of cardio machines for effective workouts.</p>
+            </div>
+            <div class="service">
+                <h3>Weightlifting</h3>
+                <p>Train with our state-of-the-art weightlifting equipment and facilities.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button>Send Message</button>
+        </div>
+    </section>
+</body>
+</html>
